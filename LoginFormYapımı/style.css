@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: linear-gradient(to right, #dfabc5 0%, #1da1f2 100%);
+}
+
+
+.container{
+    background: #fff;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+}

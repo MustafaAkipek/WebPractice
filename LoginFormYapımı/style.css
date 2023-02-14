@@ -130,11 +130,11 @@ body{
     color: #fff;
     line-height: 45px;
     border-radius: 45px;
+    margin: 20px 0 15px 0;
 }
 
 .container .github a{
     background: #24292e;
-    margin: 20px 0 15px 0;
 }
 
 .container .github a:hover{
@@ -142,8 +142,7 @@ body{
 }
 
 .container .twitter a{
-    background: #1da1f2;
-    margin: 20px 0 15px 0;
+    background: #1da1f2;,
 }
 
 .container .twitter a:hover{
@@ -152,7 +151,6 @@ body{
 
 .container .instagram a{
     background: #d900ff;
-    margin: 20px 0 15px 0;
 }
 
 .container .instagram a:hover{

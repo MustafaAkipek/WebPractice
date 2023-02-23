@@ -14,3 +14,49 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.social-media div{
+    display: inline;
+}
+
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background: #2c3c50;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+}
+
+.social-media a i{
+    transition: 0.5s all;
+}
+
+.social-media .facebook a:hover{
+    background-color: #4267b2;
+}
+
+.social-media .twitter a:hover{
+    background: #1da1f2;
+}
+
+.social-media .google a:hover{
+    background: #d34c3d;
+}
+
+.social-media .instagram a:hover{
+    background: #7315c6;
+}
+
+.social-media .youtube a:hover{
+    background: #fe0000;
+}
+
+.social-media a:hover > i{
+    transform: scale(1.6) rotate(360deg)
+}

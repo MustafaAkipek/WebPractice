@@ -26,4 +26,43 @@ body{
     display: block;
     width: 100%;
     padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #538fef;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-btn:hover{
+    transform: scale(0.96);
+    background: #fff;
+    color: #538fef
+}
+
+.signup-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-form a:hover{
+    color:yellow;
 }

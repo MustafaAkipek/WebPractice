@@ -1,0 +1,27 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: hsl(60, 100%, 77%);
+}
+
+p::selection{
+    color: rgb(89, 255, 71);
+    background-color: hsl(0, 0%, 21%);
+}
+
+#emoji li::marker{
+    content: "✅";
+    font-size: 1.5em;
+}
+
+#fire::before{
+    content: "🔥";
+}
+
+#skull::after{
+    content: "💀"
+}
+

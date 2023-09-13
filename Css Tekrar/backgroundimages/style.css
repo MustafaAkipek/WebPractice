@@ -1,0 +1,7 @@
+body{
+    background-image: url(/images/pxfuel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* resmin daima sayfanın ortasında kalmasını sağlar */
+    background-size: cover;
+}

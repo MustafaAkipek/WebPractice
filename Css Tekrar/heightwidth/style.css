@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box; /* bir etiketin toplam genişliğine ve yüksekliğine padding ve border'ı dahil etmemizi sağlar */ 
+}
+
+.container{
+    background-color: hsl(0, 0%, 24%);
+    height: 100vh;
+}
+
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 50%;
+}
